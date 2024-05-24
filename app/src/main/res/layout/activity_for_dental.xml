@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mdental"
+    tools:context=".ForDental">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medications for teeth"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:layout_marginBottom="20dp"/> <!-- زيادة المسافة بين العنوان والمربع الأبيض -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/layout_border"
+        android:backgroundTint="#ABF9FAF9"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:text="Nonsteroidal anti-inflammatory drugs  (NSAIDs): "
+                android:textColor="#EC2026"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:text="For example,ibuprofen and naproxen.It is used to relieve pain and swelling associated with gum inflammation."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_border"
+        android:backgroundTint="#ABF9FAF9"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Antibacterial Mouthwashes: "
+                android:textColor="#EC2026"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+It is used to help reduce bacterial growth in the mouth and control gum inflammation.."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_border"
+        android:backgroundTint="#ABF9FAF9"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Antibiotics: "
+                android:textColor="#EC2026"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For example,Amoxicillin and Metronidazole.
+This type may be in the form of topical or oral antibiotics, used to treat bacterial infections in the gums."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/back11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#0C0C0C"
+        android:text="Go Back"
+        android:textColor="#EFE9EA"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+</LinearLayout>

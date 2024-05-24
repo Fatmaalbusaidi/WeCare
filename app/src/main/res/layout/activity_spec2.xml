@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1EFD1"
+    tools:context=".Spec2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check an useful website of Cardiologists Doctors"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/FirstBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="#659C463E"
+        android:layout_marginTop="20dp"
+        android:text="View Now "
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="#659C463E"
+        android:text="Go Back"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="25dp"/>
+
+    <WebView
+        android:id="@+id/wv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

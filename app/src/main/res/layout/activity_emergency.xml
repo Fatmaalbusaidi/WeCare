@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/emr"
+    tools:context=".Emergency">
+
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:text="For any emergency you can call"
+        android:textAlignment="center"
+        android:textColor="#FF000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="9999"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:text="Ministry of Health website contains all the contact numbers for healthcare facilities in Oman."
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/back5"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#214022"
+        android:text="Back"/>
+
+
+
+</LinearLayout>
